@@ -8,6 +8,11 @@ let accountState
 
 console.log(accountId);
 
+/* 
+prefer not to use var
+because of issue in block scope and functional scope
+*/
+
 accountEmail = "ab@ab.com"
 accountPassword = "avik@2003"
 accountCity = "kolkata"
